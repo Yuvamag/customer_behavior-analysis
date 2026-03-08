@@ -2,7 +2,7 @@
 
 ## Project Overview
 This project analyzes customer shopping behavior using a dataset of 3,900 retail transactions.  
-The goal is to understand customer purchasing patterns, product preferences, and demographic trends in order to derive actionable business insights.
+The goal is to identify purchasing patterns, customer segments, and product preferences to generate actionable business insights.
 
 The project demonstrates a complete **data analytics workflow**, including data cleaning, exploratory analysis, SQL-based business queries, and dashboard visualization.
 
@@ -44,12 +44,12 @@ The project demonstrates a complete **data analytics workflow**, including data 
 Performed using **Python and Pandas** in Jupyter Notebook.
 
 Key steps included:
-- Loading and inspecting the dataset
+- Loading and exploring the dataset
 - Handling missing values
 - Standardizing column names
 - Creating new features (age groups, purchase frequency)
 - Removing redundant columns
-- Preparing the dataset for database storage
+- Preparing the dataset for SQL analysis
 
 ---
 
@@ -63,13 +63,15 @@ Initial analysis was performed to understand:
 ---
 
 ### 3. SQL Business Analysis
-The cleaned dataset was loaded into a database and analyzed using SQL queries to answer business questions such as:
+The cleaned dataset was analyzed using **SQL queries in Microsoft SQL Server** through **SQL Server Management Studio (SSMS)**.
+
+Key business questions explored:
 
 - Revenue comparison by gender
 - High-spending customers using discounts
 - Top-rated products
 - Shipping type spending comparison
-- Subscriber vs non-subscriber purchasing behavior
+- Subscribers vs non-subscribers purchasing behavior
 - Customer segmentation (New, Returning, Loyal)
 - Top products per category
 - Revenue contribution by age group
@@ -77,12 +79,12 @@ The cleaned dataset was loaded into a database and analyzed using SQL queries to
 ---
 
 ### 4. Data Visualization
-An interactive dashboard was created using **Power BI** to visualize:
+An interactive dashboard was created using **Power BI** to visualize insights including:
 
-- Revenue trends
+- Revenue distribution
 - Customer demographics
 - Product category performance
-- Purchase behavior patterns
+- Shopping behavior trends
 
 ---
 
@@ -91,8 +93,8 @@ An interactive dashboard was created using **Power BI** to visualize:
 - Python
 - Pandas
 - Jupyter Notebook
-- SQL
-- PostgreSQL
+- Microsoft SQL Server
+- SQL Server Management Studio (SSMS)
 - Power BI
 
 ---
