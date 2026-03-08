@@ -112,3 +112,18 @@ The analysis helps businesses:
 ---
 
 ## Repository Structure
+
+```
+customer-shopping-behavior-analysis
+│
+├── notebooks
+│   └── 01_customer_shopping_data_cleaning.ipynb
+│
+├── sql
+│   └── business_analysis_queries.sql
+│
+├── dashboard
+│   └── powerbi_dashboard.png
+│
+└── README.md
+```
